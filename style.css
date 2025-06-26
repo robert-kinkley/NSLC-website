@@ -16,6 +16,9 @@ body {
 
 header {
   background-color: #003366;
+  background-image: url("wavecrash-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: white;
   padding: 20px 0;
 }
@@ -38,7 +41,7 @@ nav a {
 
 section {
   background-color: white;
-  margin: 20px 0;
+  margin: 20px 5px;
   padding: 20px;
   border-radius: 5px;
 }
