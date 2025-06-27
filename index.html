@@ -4,12 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Northshore Laboratory Consulting</title>
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+-->
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Northshore Laboratory Consulting</h1>
+    <div class="container header">
+      <img src="logo_420x168.png" class="logo">
+      <!-- <h1>Northshore Laboratory Consulting</h1> -->
       <nav>
         <a href="#about">About</a>
         <a href="#pricing">Pricing</a>
@@ -30,56 +33,70 @@
   <section id="pricing">
     <div class="container">
       <h2>Services</h2>
-      <ul>
-        <li><strong>CORE package - $450/Mo</strong></li>
-        <li>Monthly log reviews and QA reports</li>
-        <li>Consultation on technical and scientific matters</li>
-        <li>Monthly 30-minute virtual check-in meetings</li>
-        <li>Incident reports on items discovered by Technical Consultant</li>
-      </ul>
-      <ul>
-        <li><strong>Personnel ADDONS</strong></li>
-        <li>Virtual Training - $35</li>
-        <li>Virtual Competency - $75</li>
-        <li>In-person Competency - $250 + Expenses</li>
-        <li>Employee file Review - $25/employee</li>
-      </ul>
-      <ul>
-        <li><strong>Instrument ADDONS</strong></li>
-        <li>Initial verification - $1200</li>
-        <li>Reference range study - $100</li>
-        <li>Calibration verification - $50</li>
-        <li>Instrument-to-instrument comparison - $50</li>
-      </ul>
-      <ul>
-        <li><strong>Quality Management ADDONS</strong></li>
-        <li>IQCP development - $1200</li>
-        <li>Supply audit management - $10/mo</li>
-        <li>Safety audit management - $10/mo</li>
-        <li>Result reporting audit management - $20/mo</li>
-        <li>Assistance with corrective actions - $75/hr</li>
-      </ul>
-      <ul>
-        <li><strong>Survey Assistance ADDONS</strong></li>
-        <li>Enhanced Self-assessment - $75</li>
-        <li>Virtual mock survey - $250</li>
-        <li>Virtual survey assistance - $225/hr</li>
-        <li>In-person survey assistance with pre-survey walkthrough - $350/hr + expenses</li>
-        <li>Survey citation correction - <i>priced based on survey results</i></li>
-      </ul>
-      <ul>
-        <li><strong>Proficiency Testing ADDONS</strong></li>
-        <li>Management of API enrollment and ordering - $35/mo</li>
-        <li>Consultation on instructions for running/reporting API samples - $35/event</li>
-        <li>Consultation on Evaluation and Corrective Actions - $35/event</li>
-      </ul>
+      <div class="services">
+        <div class="price-tile">
+          <ul>
+            <li><strong>CORE package - $450/Mo</strong></li>
+            <li>Monthly log reviews and QA reports</li>
+            <li>Consultation on technical and scientific matters</li>
+            <li>Monthly 30-minute virtual check-in meetings</li>
+            <li>Incident reports on items discovered by Technical Consultant</li>
+          </ul>
+        </div>
+        <div class="price-tile">
+          <ul>
+            <li><strong>Personnel ADDONS</strong></li>
+            <li>Virtual Training - $35</li>
+            <li>Virtual Competency - $75</li>
+            <li>In-person Competency - $250 + Expenses</li>
+            <li>Employee file Review - $25/employee</li>
+          </ul>
+        </div>
+        <div class="price-tile">
+          <ul>
+            <li><strong>Instrument ADDONS</strong></li>
+            <li>Initial verification - $1200</li>
+            <li>Reference range study - $100</li>
+            <li>Calibration verification - $50</li>
+            <li>Instrument-to-instrument comparison - $50</li>
+          </ul>
+        </div>
+        <div class="price-tile">
+          <ul>
+            <li><strong>Quality Management ADDONS</strong></li>
+            <li>IQCP development - $1200</li>
+            <li>Supply audit management - $10/mo</li>
+            <li>Safety audit management - $10/mo</li>
+            <li>Result reporting audit management - $20/mo</li>
+            <li>Assistance with corrective actions - $75/hr</li>
+          </ul>
+        </div>
+        <div class="price-tile">
+          <ul>
+            <li><strong>Survey Assistance ADDONS</strong></li>
+            <li>Enhanced Self-assessment - $75</li>
+            <li>Virtual mock survey - $250</li>
+            <li>Virtual survey assistance - $225/hr</li>
+            <li>In-person survey assistance with pre-survey walkthrough - $350/hr + expenses</li>
+            <li>Survey citation correction - <i>priced based on survey results</i></li>
+          </ul>
+        </div>
+        <div class="price-tile">
+          <ul>
+            <li><strong>Proficiency Testing ADDONS</strong></li>
+            <li>Management of API enrollment and ordering - $35/mo</li>
+            <li>Consultation on instructions for running/reporting API samples - $35/event</li>
+            <li>Consultation on Evaluation and Corrective Actions - $35/event</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="contact">
     <div class="container">
       <h2>Contact Us</h2>
-      <form action="mailto:robert.kinkley@gmail.com" method="post" enctype="text/plain">
+      <form action="mailto:robert.kinkley@northshoreconsult.com" method="post" enctype="text/plain">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required/>
 
@@ -99,5 +116,8 @@
       <p>&copy; 2025 Northshore Laboratory Consulting. All rights reserved.</p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
