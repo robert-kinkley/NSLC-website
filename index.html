@@ -33,6 +33,9 @@
                 text-decoration: none;
                 color: #0d6efd;
             }
+            .service-link:hover {
+                color: #d9aa00;
+            }
         </style>
     </head>
     <body id="page-top">
@@ -47,8 +50,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#blueprint">Blueprint</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blueprint">Roadmap</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -67,13 +71,13 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted"><a href="#" class="link">CLIA</a> and <a href="#" class="link">COLA</a> compliant consulting for moderate complexity labs. </h3>
+                    <h3 class="section-subheading text-muted"><a href="#" class="link">CLIA</a> and <a href="https://cola.org" class="link">COLA</a> compliant consulting for moderate complexity labs. </h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <a href="compliance.html">
+                        <a href="compliance-service.html" class="service-link">
                             <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fas fa-shield-halved fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
@@ -81,18 +85,22 @@
                         <p class="text-muted">Full lab compliance, zero hassle. We handle regulations, inspections, and documentation so your practice stays safe and efficient</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
-                        </span>
+                        <a href="tc-service.html" class="service-link">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
                         <h4 class="my-3">Technical Consulting</h4>
                         <p class="text-muted">Expert technical support that transforms operations. We streamline systems and solve complex challenges so your team can focus on care.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-clipboard-check fa-stack-1x fa-inverse"></i>
-                        </span>
+                        <a href="survey-service.html" class="service-link">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-clipboard-check fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
                         <h4 class="my-3">Survey Support</h4>
                         <p class="text-muted">Stress-free inspections start here. We provide complete regulatory preparation and support, so your practice passes audits with confidence.</p>
                     </div>
@@ -103,7 +111,7 @@
         <section class="page-section bg-light" id="blueprint">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Blueprint</h2>
+                    <h2 class="section-heading text-uppercase">Roadmap</h2>
                     <h3 class="section-subheading text-muted">Thoughtful design, solid foundation.</h3>
                 </div>
                 <ul class="timeline">
@@ -168,25 +176,25 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/brooke-headshot.png" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/brooke-headshot.png" alt="Headshot of Brooke Jansen" />
                             <h4>Brooke Jansen, MLS (ASCP)cm</h4>
                             <p class="text-muted">Technical Consultant</p>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/brooke-jansen/" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/brooke-jansen/" target="_blank" aria-label="Brooke Jansen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/copper-headshot.png" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/copper-headshot.png" alt="Headshot of the sweet boy Copper Dog" />
                             <h4>Copper</h4>
                             <p class="text-muted">Office Mascot</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/robert-headshot.png" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/robert-headshot.png" alt="Headshot of Robert Kinkley" />
                             <h4>Robert Kinkley, MLS (ASCP)cm</h4>
                             <p class="text-muted">Technical Consultant</p>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/robertkinkley/" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/robertkinkley/" target="_blank" aria-label="Robert Kinkley LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -195,6 +203,79 @@
                 </div>
             </div>
         </section>
+
+        <!-- FAQ -->
+        <section class="page-section bg-light" id="faq">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Frequently Asked Questions (FAQ)</h2>
+                </div>
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-dark">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <!-- Inner -->
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                            <div class="d-flex justify-content-center align-items-center" style="min-height:300px;">
+                                <div class="col-md-8">
+                                <h3 class="fs-2 text-body-emphasis">What is a moderate complexity laboratory?</h3>
+                                <p>A moderate complexity laboratory is defined under CLIA regulations as a lab that performs tests categorized as moderate complexity by the FDA. These labs must meet specific requirements for personnel qualifications, quality systems, and regulatory compliance.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center" style="min-height:300px;">
+                                <div class="col-md-8">
+                                <h3 class="fs-2 text-body-emphasis">Why does my moderate complexity lab need a Technical Consultant?</h3>
+                                <p>It's a CLIA requirement. A Technical Consultant helps ensure your laboratory meets CLIA standards, maintains quality assurance, and stays inspection-ready. It also supports staff training, SOP development, and efficient workflows to improve accuracy and compliance.</p>
+
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center" style="min-height:300px;">
+                                <div class="col-md-8">
+                                <h3 class="fs-2 text-body-emphasis">How can consulting help with CLIA compliance?</h3>
+                                <p>Our consultants provide step-by-step guidance on CLIA regulations, including documentation, quality control, proficiency testing, and personnel competency assessments. We also prepare your lab for CLIA inspections and help maintain compliance year-round.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center" style="min-height:300px;">
+                                <div class="col-md-8">
+                                <h3 class="fs-2 text-body-emphasis">What areas of technical consulting do you cover?</h3>
+                                <p>We provide support in regulatory compliance, quality management systems, workflow optimization, instrument validation, staff training, and inspection readiness. Every consulting plan is customized to your lab’s needs.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="d-flex justify-content-center align-items-center" style="min-height:300px;">
+                                <div class="col-md-8">
+                                <h3 class="fs-2 text-body-emphasis">How do I get started with your consulting services?</h3>
+                                <p>Simply contact us to schedule an initial consultation. We’ll evaluate your laboratory’s current operations, identify areas for improvement, and create a tailored plan to help your lab achieve compliance and efficiency.</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>    
+            </div>
+        </section>
+
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
